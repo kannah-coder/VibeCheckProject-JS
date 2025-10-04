@@ -1,0 +1,47 @@
+ body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern 
+font */
+ }
+ .vibe-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+ }
+ .vibe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+ }
+ .vibe-card img {
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+ }
+ #vibe-display, #weather-display {
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+ }
+ #vibe-display h2, #weather-display h2, #weather-display h3 {
+    color: #6f42c1; /* Bootstrap purple */
+    font-weight: 600;
+ }
+ .input-group .form-control {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+ }
+ .input-group .btn {
+border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px;
+ background-color: #6f42c1;
+ border-color: #6f42c1;
+ }
+ .input-group .btn:hover {
+ background-color: #5a36a0;
+ border-color: #5a36a0;
+ }
+ .text-center.text-muted {
+ font-style: italic;
+ color: #6c757d !important;
+ }
