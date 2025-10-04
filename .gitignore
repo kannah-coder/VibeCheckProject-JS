@@ -1,0 +1,31 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / npm (in case you later use packages)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build / Dist (if you later add bundling)
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment / API keys
+.env
+*.env
+
+# MacOS extra
+__MACOSX/
+
+# Backup files
+*.bak
+*.tmp
